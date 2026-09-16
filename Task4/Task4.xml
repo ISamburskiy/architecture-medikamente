@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница — 1" id="j5LwKomQ4XL-95lMBwcU">
+    <mxGraphModel dx="1014" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="spine" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#333333;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="340" as="sourcePoint" />
+            <mxPoint x="860" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="effect" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" value="Узкие места при миграции&#xa;монолита на микросервисы" vertex="1">
+          <mxGeometry height="60" width="230" x="870" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#6c8ebf;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="sourcePoint" />
+            <mxPoint x="210" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1" parent="1" style="text;html=1;align=center;fontSize=13;fontStyle=1;fontColor=#6c8ebf;" value="Инфраструктура" vertex="1">
+          <mxGeometry height="20" width="120" x="155" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t1a" parent="1" style="text;html=1;align=right;fontSize=10;" value="Физический сервер в офисе —&#xa;нет отказоустойчивости" vertex="1">
+          <mxGeometry height="30" width="140" x="78" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="t1b" parent="1" style="text;html=1;align=right;fontSize=10;" value="Файловый режим 1С —&#xa;блокировки при росте" vertex="1">
+          <mxGeometry height="30" width="135" x="78" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="t1c" parent="1" style="text;html=1;align=right;fontSize=10;" value="Общий диск — I/O&#xa;при 5× росте данных" vertex="1">
+          <mxGeometry height="30" width="145" x="78" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#82b366;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <mxPoint x="410" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2" parent="1" style="text;html=1;align=center;fontSize=13;fontStyle=1;fontColor=#82b366;" value="ПО и архитектура" vertex="1">
+          <mxGeometry height="20" width="130" x="355" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t2a" parent="1" style="text;html=1;align=right;fontSize=10;" value="Excel как база данных —&#xa;нет транзакционности" vertex="1">
+          <mxGeometry height="30" width="140" x="279" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="t2b" parent="1" style="text;html=1;align=right;fontSize=10;" value="Монолит без API-слоя —&#xa;сложность декомпозиции" vertex="1">
+          <mxGeometry height="30" width="145" x="279" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="t2c" parent="1" style="text;html=1;align=right;fontSize=10;" value="Нет доменного разделения —&#xa;данные смешаны" vertex="1">
+          <mxGeometry height="30" width="135" x="279" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#d6b656;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="610" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3" parent="1" style="text;html=1;align=center;fontSize=13;fontStyle=1;fontColor=#d6b656;" value="Интеграция" vertex="1">
+          <mxGeometry height="20" width="100" x="565" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t3a" parent="1" style="text;html=1;align=right;fontSize=10;" value="OLE ККМ↔1С — устаревший&#xa;протокол, не масштабируется" vertex="1">
+          <mxGeometry height="30" width="140" x="487.5" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="t3b" parent="1" style="text;html=1;align=right;fontSize=10;" value="Новый API лаборатории —&#xa;контракт и безопасность" vertex="1">
+          <mxGeometry height="30" width="145" x="487.5" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="t3c" parent="1" style="text;html=1;align=right;fontSize=10;" value="Платёжный шлюз — новая&#xa;связь, риск задержек" vertex="1">
+          <mxGeometry height="30" width="135" x="487.5" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#9673a6;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="310" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4" parent="1" style="text;html=1;align=center;fontSize=13;fontStyle=1;fontColor=#9673a6;" value="Персонал" vertex="1">
+          <mxGeometry height="20" width="80" x="270" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="t4a" parent="1" style="text;html=1;align=right;fontSize=10;" value="IT-команда 3 человека —&#xa;не хватит на миграцию" vertex="1">
+          <mxGeometry height="30" width="140" x="183" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="t4b" parent="1" style="text;html=1;align=right;fontSize=10;" value="Новые сотрудники —&#xa;не знают контекст систем" vertex="1">
+          <mxGeometry height="30" width="145" x="183" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="t4c" parent="1" style="text;html=1;align=right;fontSize=10;" value="Нет DevOps-практик —&#xa;ручные релизы, нет CI/CD" vertex="1">
+          <mxGeometry height="30" width="135" x="183" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#b85450;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="610" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5" parent="1" style="text;html=1;align=center;fontSize=13;fontStyle=1;fontColor=#b85450;" value="Процессы" vertex="1">
+          <mxGeometry height="20" width="80" x="570" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="t5a" parent="1" style="text;html=1;align=right;fontSize=10;" value="Ручной ввод — рост ошибок&#xa;при 5× нагрузке" vertex="1">
+          <mxGeometry height="30" width="140" x="482.5" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="t5b" parent="1" style="text;html=1;align=right;fontSize=10;" value="Двойной учёт (Excel + 1С) —&#xa;рассинхронизация" vertex="1">
+          <mxGeometry height="30" width="145" x="482.5" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="t5c" parent="1" style="text;html=1;align=right;fontSize=10;" value="Нет регрессионного&#xa;тестирования" vertex="1">
+          <mxGeometry height="30" width="135" x="482.5" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" value="Диаграмма Исикавы: Узкие места при миграции «Медикаменте»" vertex="1">
+          <mxGeometry height="30" width="700" x="250" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
