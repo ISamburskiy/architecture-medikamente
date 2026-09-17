@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="j5LwKomQ4XL-95lMBwcU">
+    <mxGraphModel dx="1014" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="20" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" value="1. Медицинские и личные данные" vertex="1">
+          <mxGeometry height="20" width="320" x="40" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" value="2. Данные по платежам" vertex="1">
+          <mxGeometry height="20" width="320" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" value="3. Данные по ТМЦ" vertex="1">
+          <mxGeometry height="20" width="320" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Сотрудники" vertex="1">
+          <mxGeometry height="50" width="140" x="40" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Кассир" vertex="1">
+          <mxGeometry height="50" width="140" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Сотрудник&#xa;склада" vertex="1">
+          <mxGeometry height="50" width="140" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="140" x="830" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Рабочие&#xa;компьютеры" vertex="1">
+          <mxGeometry height="65" width="150" x="300" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="1С&#xa;Платежи" vertex="1">
+          <mxGeometry height="65" width="150" x="300" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Excel" vertex="1">
+          <mxGeometry height="50" width="150" x="300" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="1С&#xa;Склад" vertex="1">
+          <mxGeometry height="65" width="150" x="300" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="1С&#xa;Бухгалтерия" vertex="1">
+          <mxGeometry height="70" width="160" x="560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=partialRectangle;right=0;rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Общий диск&#xa;(xlsx, pdf)" vertex="1">
+          <mxGeometry height="50" width="160" x="560" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="2" style="endArrow=classic;html=1;fontSize=11;" target="3" value="Медицинские&#xa;и личные данные">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" edge="1" parent="1" source="3" style="endArrow=classic;html=1;fontSize=11;" target="6" value="Сохранение&#xa;файлов (xlsx, pdf)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" edge="1" parent="1" source="4" style="endArrow=classic;html=1;fontSize=11;" target="5" value="Данные по&#xa;платежам">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" edge="1" parent="1" source="5" style="endArrow=classic;html=1;fontSize=11;" target="7" value="Передача&#xa;платежей">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" edge="1" parent="1" source="4" style="endArrow=classic;html=1;fontSize=11;" target="8" value="Ввод данных">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" edge="1" parent="1" source="10" style="endArrow=classic;html=1;fontSize=11;" target="11" value="Данные по ТМЦ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" edge="1" parent="1" source="11" style="endArrow=classic;html=1;fontSize=11;" target="7" value="Передача&#xa;данных по ТМЦ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" edge="1" parent="1" source="7" style="endArrow=classic;html=1;fontSize=11;" target="9" value="Отчёты&#xa;(платежи, ТМЦ)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" edge="1" parent="1" source="9" style="endArrow=classic;html=1;fontSize=11;curved=1;" target="7" value="Бухгалтерские&lt;br&gt;данные, налоги, ФОТ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="320" />
+              <mxPoint x="740" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPB-VR5Q7oQtRfDSbXLg-38" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#666666;" value="4. Бухгалтерские данные" vertex="1">
+          <mxGeometry height="20" width="320" x="700" y="235" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
